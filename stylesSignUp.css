@@ -58,16 +58,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*  ==================================
-    Body background
+    CSS properties
     ================================== */
 
 body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: gray;
 }
 
 .content_box {
   display: flex;
-  flex-direction: row;
+  height: 80vh;
+  aspect-ratio: 1.25 / 1;
   border: 4px dotted white;
 
 }
