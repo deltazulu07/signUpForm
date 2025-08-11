@@ -56,3 +56,43 @@ h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+/*  ==================================
+    Body background
+    ================================== */
+
+body {
+  background-color: gray;
+}
+
+.content_box {
+  display: flex;
+  flex-direction: row;
+  border: 4px dotted white;
+
+}
+
+.left_box {
+  display: flex;
+  border: 4px solid pink;
+
+}
+
+.right_box {
+  display: flex;
+  flex-direction: column;
+  border: 4px solid blue;
+
+}
+
+.right_top {
+
+}
+
+.right_middle {
+
+}
+
+.right_bottom {
+
+}
