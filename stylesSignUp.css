@@ -90,6 +90,13 @@ body {
   border: 4px dotted green;
 }
 
+.leftPanel img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
 .rightBox {
   display: flex;
   flex: 1.5;
