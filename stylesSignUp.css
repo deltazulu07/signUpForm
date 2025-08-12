@@ -69,35 +69,52 @@ body {
   background-color: gray;
 }
 
-.content_box {
+.mainBox {
   display: flex;
-  height: 80vh;
+  width: 75vw;
   aspect-ratio: 1.25 / 1;
   border: 4px dotted white;
 
 }
 
-.left_box {
+.leftBox {
   display: flex;
+  flex: 1;
   border: 4px solid pink;
 
 }
 
-.right_box {
+.leftPanel {
   display: flex;
+  flex: 1;
+  border: 4px dotted green;
+}
+
+.rightBox {
+  display: flex;
+  flex: 1.5;
   flex-direction: column;
   border: 4px solid blue;
 
 }
 
-.right_top {
+.rightTop {
+  display: flex;
+  flex: 1;
+  border: 4px dotted fuchsia;
 
 }
 
-.right_middle {
+.rightMiddle {
+  display: flex;
+  flex: 1;
+  border: 4px dotted black;
 
 }
 
-.right_bottom {
+.rightBottom {
+  display: flex;
+  flex: 1;
+  border: 4px dotted white;
 
 }
