@@ -66,15 +66,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gray;
+  background-color: lightgray;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 #mainBox {
   display: flex;
-  width: 75vw;
-  aspect-ratio: 1.25 / 1;
+  height: 80vh;
+  aspect-ratio: 1.35 / 1;
   border: 4px dotted white;
-
 }
 
 #leftBox {
@@ -116,15 +116,21 @@ body {
 
 #firstPara {
   border: 2px dotted black;
+  margin: 50px 20px 20px 20px;
+  font-size: large;
+  font-weight: bold;
 }
 
 #secondPara {
   border: 2px dotted red;
+  margin: 0 20px;
+  font-size: large;
+  font-weight: bold;
 }
 
 #rightMiddle {
   display: flex;
-  flex: 1;
+  flex: .8;
   border: 4px dotted black;
 
 }
