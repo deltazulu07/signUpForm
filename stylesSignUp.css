@@ -98,34 +98,34 @@ body {
 
 }
 
-#leftPanel { /*is this box necessary? */
+#leftPanel {
   display: flex;
   flex: 1;
   flex-direction: column;
   border: 4px dotted green;
-}
-
-#backgdImg {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
-}
-
-#emptyBox {
-  flex: 2;
-  border: 4px dotted red;
+  background-image: url("images/tdf.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 /* Logo section */
-
-#logoBar {
+#logoRow {
   display: flex;
   flex: 1;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  justify-content: center; /*main axis*/
+  align-items: flex-end;
   border: 4px dotted black;
+}
+
+#logoNTxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px dotted red;
+}
+
+#logoBox {
+  border: 4px dotted pink;
 }
 
 #logoImg {
@@ -140,14 +140,14 @@ body {
   font-weight: bold;
   font-size: 3.5rem;
   border: 4px dotted yellow;
+  color: white;
 }
 
 /* Footer on the left */
-
 #leftFooter {
   display: flex;
   border: 4px dotted greenyellow;
-  flex: 5;
+  flex: 1.6;
   flex-direction: column;
   text-align: center;
   justify-content: flex-end;
@@ -156,6 +156,7 @@ body {
 #footerText {
   border: 4px dotted blue;
   font-size: .85rem;
+  font-weight: bold;
   color: white;
 }
 
