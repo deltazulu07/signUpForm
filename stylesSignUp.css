@@ -62,8 +62,8 @@ h1, h2, h3, h4, h5, h6 {
     ================================== */
 
 @font-face {
-  font-family: 'Nordic Bold';
-  src: url(./fonts/Norse-Bold.otf) format('opentype');
+  font-family: 'Raleway';
+  src: url(./fonts/Raleway/Raleway-BoldItalic.ttf) format('opentype');
   font-weight: bold;
   font-style: normal;
 }
@@ -119,9 +119,11 @@ body {
 
 #logoNTxt {
   display: flex;
+  flex: 1;
   justify-content: center;
   align-items: center;
   border: 4px dotted red;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 #logoBox {
@@ -133,10 +135,11 @@ body {
   width: auto;
   border: 4px dotted white;
   margin: 1rem .25rem;
+  filter: invert(100%) grayscale(100%) brightness(200%);
 }
 
 #LogoText {
-  font-family: 'Nordic Bold', system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Raleway', system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: bold;
   font-size: 3.5rem;
   border: 4px dotted yellow;
